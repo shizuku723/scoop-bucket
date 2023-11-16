@@ -22,7 +22,7 @@
         "}",
         "Get-ChildItem \"$dir\\SumatraPDF-*.exe\" | Rename-Item -NewName 'SumatraPDF-installer.exe'"
     ],
-    "bin": [["SumatraPDF.exe", "pdf.exe"]],
+    "bin": [["SumatraPDF.exe", "pdf"]],
     "installer": {
         "file": "SumatraPDF-installer.exe",
         "args": [
