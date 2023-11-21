@@ -43,7 +43,7 @@
         "url": "https://music.163.com/api/appcustomconfig/get",
         "regex": "\"web-pc-beta-download-links\":{\"pcPackage64\":\"https:\/\/.*official_(?<version>.*).64.exe\""
     },
-	"autoupdate"：{
+	"autoupdate": {
 		"architecture": {
         "64bit": {
             "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_$version.64.exe#/dl.7z"
