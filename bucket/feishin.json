@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jeffvli/feishin/releases/download/v0.5.2/Feishin-0.5.2-win-x64.exe#/dl.7z",
-            "hash": "sha512:115fb699a5f2cf3c6dc2503902588325e11e414e72717daba4810d3569f3db846ae3e6856441881708d392eaaf29f34a3c7804a8dc1771efb8f0ecec7747febd"
+            "hash": "sha512:b83d0a1f2a1a6d1a40c8f59badc42aa94ed21a43e3b65137cb9ae1e70fdc5ad4583e0469ee2473710aa1057be9d938d55627ed03dd00b612ac6d7a18d4179a78"
         }
     },
     "installer": {
