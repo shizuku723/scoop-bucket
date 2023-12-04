@@ -1,0 +1,37 @@
+{
+    "version": "0.5.2",
+    "homepage": "https://github.com/jeffvli/feishin",
+    "description": "A modern self-hosted music player.",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jeffvli/feishin/releases/download/v0.5.2/Feishin-0.5.2-win-x64.exe#/dl.7z",
+            "hash": "sha512:115fb699a5f2cf3c6dc2503902588325e11e414e72717daba4810d3569f3db846ae3e6856441881708d392eaaf29f34a3c7804a8dc1771efb8f0ecec7747febd"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Feishin.exe",
+            "Feishin"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jeffvli/feishin/releases/download/v$version/Feishin-$version-win-x64.exe#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/jeffvli/feishin/releases/download/v$version/latest.yml",
+                    "mode": "extract",
+                    "regex": "(?sm)exe.*sha512: $base64"
+                }
+            }
+        }
+    }
+}
