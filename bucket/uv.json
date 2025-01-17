@@ -18,7 +18,7 @@
         "uvx.exe"
     ],
     "env_set": {
-        "UV_CACHE_DIR": "UV_CACHE_DIR",
+        "UV_CACHE_DIR": "$dir\\UV_CACHE_DIR",
         "UV_PYTHON_BIN_DIR": "$dir\\UV_PYTHON_BIN_DIR",
         "UV_PYTHON_INSTALL_DIR": "$dir\\UV_PYTHON_INSTALL_DIR",
         "UV_TOOL_BIN_DIR": "$dir\\UV_TOOL_BIN_DIR",
