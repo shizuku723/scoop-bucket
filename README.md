@@ -6,6 +6,9 @@
 Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## How do I use this template?
+> [!WARNING]  
+> This bucket is not for public use cause I have changed some configuration to fit me better.
+> It is recommended for you to copy the specific manifests to your own bucket.
 
 1. Generate your own copy of this repository with the "Use this template"
    button.
