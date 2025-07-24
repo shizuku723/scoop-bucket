@@ -1,5 +1,5 @@
 {
-    "version": "5.1.1.31157",
+    "version": "5.1.2.31185",
     "description": "(Chinese (Simplified))Directory and file compare functions in one package",
     "homepage": "https://www.scootersoftware.com",
     "license": {
@@ -15,8 +15,8 @@
         "",
         "Or maybe you want to upgrade license from v4 to v5: https://www.scootersoftware.com/kb/upgradepolicy"
     ],
-    "url": "https://www.scootersoftware.com/files/BCompare-zh-5.1.1.31157.exe",
-    "hash": "1e8cb445050507fcc294b302cc7b730ba544a7970b1a628ca71f1cdd5b2dbc5e",
+    "url": "https://www.scootersoftware.com/files/BCompare-zh-5.1.2.31185.exe",
+    "hash": "6f5c7f8aa9f262902f4ef66afc65399dfb29613e44f859bee93e521d9efbfc44",
     "architecture": {
         "64bit": {
             "installer": {
