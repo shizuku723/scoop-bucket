@@ -1,12 +1,12 @@
 {
-    "version": "0.20.0",
+    "version": "0.20.1",
     "homepage": "https://github.com/jeffvli/feishin",
     "description": "A modern self-hosted music player.",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jeffvli/feishin/releases/download/v0.20.0/Feishin-0.20.0-win-x64.exe#/dl.7z",
-            "hash": "sha512:b27485b072ab1a8fbabf273f1df4b0e3f65f02bc98ce47b366cf05d237e4e5d2459b39024689b1db5b034bc0aa3d693ccca59fc19724a0f97430fd2536ebebe0"
+            "url": "https://github.com/jeffvli/feishin/releases/download/v0.20.1/Feishin-0.20.1-win-x64.exe#/dl.7z",
+            "hash": "sha512:b87ca9c6741eba7c02e74cb4eff1a32e8f7bf60bc063aa3ba4f814ee19f75b0b34095b98946860be26a045ec393a4216da0d4be2aab914a766fc1ea055feaa71"
         }
     },
     "installer": {
